@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Bord';
+  src: url('fonts/Bord.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ShooterGoth';
+  src: url('fonts/ShooterGoth.ttf') format('truetype');
+}
+
+body {
+  font-family: 'ShooterGoth', sans-serif;
+  background: linear-gradient(135deg, #180018, #2A114B, #522959);
+  color: #FAE5D8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* === Heading === */
+h1 {
+  font-family: 'Bord', sans-serif;
+  font-size: 3rem;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  color: #FAE5D8;
+  text-shadow: 0 0 12px #DFB682, 0 0 25px #824D69;
+}
+
+/* === Container === */
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: rgba(82, 41, 89, 0.85);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(24, 0, 24, 0.9);
+}
+
+/* === Inputs === */
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #FAE5D8;
+  color: #180018;
+  font-family: 'ShooterGoth', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: 2px solid #DFB682;
+  box-shadow: 0 0 10px #DFB682;
+}
+
+/* === Buttons === */
+button {
+  font-family: 'ShooterGoth', sans-serif;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #824D69;
+  color: #FAE5D8;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #DFB682;
+  color: #180018;
+  box-shadow: 0 0 15px #DFB682;
+}
+
+/* === Divider === */
+.divider {
+  height: 2px;
+  width: 80%;
+  background: #DFB682;
+  margin: 25px auto;
+  border-radius: 2px;
+}
+
+/* === Section Headings === */
+h2 {
+  font-family: 'ShooterGoth', sans-serif;
+  font-size: 1.5rem;
+  color: #DFB682;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* === Saved Games List === */
+#gamesList {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.game-card {
+  font-family: 'ShooterGoth', sans-serif;
+  background: rgba(130, 77, 105, 0.25);
+  border-left: 4px solid #DFB682;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.game-card:hover {
+  background: rgba(130, 77, 105, 0.4);
+  transform: translateX(3px);
+}
+
+.game-title {
+  color: #DFB682;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.game-details {
+  font-size: 1rem;
+  color: #FAE5D8;
+}
+
+.delete-btn {
+  background-color: #DFB682;
+  color: #180018;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 15px;
+  margin-top: 10px;
+  font-family: 'ShooterGoth', sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #824D69;
+  color: #FAE5D8;
+  box-shadow: 0 0 10px #824D69;
+}

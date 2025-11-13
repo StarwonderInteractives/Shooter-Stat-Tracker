@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shooter Stats Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Shooter Stats Tracker</h1>
+
+  <div class="container">
+    <input type="text" id="gameCategory" placeholder="Enter Game Name (e.g., Valorant, PUBG)" />
+    <input type="text" id="gameName" placeholder="Enter Player Name" />
+    <input type="number" id="kills" placeholder="Kills" />
+    <input type="number" id="deaths" placeholder="Deaths" />
+    <input type="number" id="matches" placeholder="Matches Played" />
+
+    <button onclick="addGame()">Add Game</button>
+
+    <div class="divider"></div>
+
+    <h2>Saved Games</h2>
+    <div id="gamesList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
