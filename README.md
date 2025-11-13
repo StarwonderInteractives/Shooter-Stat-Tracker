@@ -1,2 +1,11 @@
-# Shooter-Stat-Tracker
-Shooter Stats Tracker – Track and compare your performance across multiple shooter games. Create sections for different games and monitor wins, kills, and more!!! 
+# Project Structure 
+Shooter-Stats-Tracker/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── /fonts/
+    ├── Bord.ttf
+    └── ShooterGoth.ttf
+---
