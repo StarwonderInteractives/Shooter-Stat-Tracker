@@ -8,4 +8,3 @@ Shooter-Stats-Tracker/
 └── /fonts/
     ├── Bord.ttf
     └── ShooterGoth.ttf
----
