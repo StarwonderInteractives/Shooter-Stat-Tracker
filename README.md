@@ -25,4 +25,4 @@ No clutter. No over-complication. Just your stats, your progress, your improveme
 ---
 
 ## 🌐 Check it out 
-🔗 [View Website](https://starwonderinteractives.github.io/Shooter-Stat-Tracker/)
+🔗 [View Website](https://k1ngp1nh4s4n.github.io/Shooter-Stat-Tracker/)
